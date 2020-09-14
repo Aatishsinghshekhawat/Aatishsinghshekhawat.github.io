@@ -1,0 +1,44 @@
+body{
+    background-color:#eeee;
+    /* text-align: center;
+    width: 60%; */
+}
+h1 {
+    text-align: center;
+}
+.SLOGAN {
+text-align: center;
+}
+.image {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-size: 14px;
+}
+.life {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-size: 18px;
+}
+.slogan {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-size: 20px;
+}
+.name {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: block;
+}
+.wiki {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.work{
+    margin: 10px;
+    display: blocks;
+}
