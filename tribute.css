@@ -15,6 +15,9 @@ text-align: center;
     width: 70%;
     font-size: 14px;
 }
+img {
+    width: 100%;
+}
 .life {
     margin-left: 15%;
     margin-right: 15%;
@@ -41,4 +44,21 @@ text-align: center;
 .work{
     margin: 10px;
     display: block;
+}
+@media (max-width:500px){
+    .image {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .life {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .slogan {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
