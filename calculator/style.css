@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-size:50px;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    background-color: rgb(183, 255, 255);
+    padding: 45px 34px 0px 55px;
+    width: 500px;
+    height: 418px;
+    margin: auto;
+}
+#caluculater-screen {
+    background-color: black;
+    width: 484px;
+    height: 107px;
+    position: absolute;
+    top: 131px;
+    left: 323px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#signs{
+    background-color: #eaece9;
+    height: 67px;
+    width: 484px;
+    position: absolute;
+    top: 238px;
+    left: 323px;
+display: flex;
+}
+.signs-cell{
+    width: 119px;
+    height: 64px;
+    border: 1px solid black;
+    font-size: 37px;
+    text-align: center;
+}
+.signs-cell:hover{
+    background-color: #c6ccc3;
+}
