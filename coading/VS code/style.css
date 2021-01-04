@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    height: 92px;
+    width: 100%;
+    background-color: rgb(190, 49, 68);
+    display: flex;
+    justify-content: space-between;
+}
+.font{
+    font-size: 60px;
+    top: 15px;
+    left: 20px;
+}
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 22px;
+}
+.flex-nav{
+    padding-top: 16px;
+}
+nav a:hover{
+    background-color: #000;
+    height: 60px;
+}
+.name{
+    text-align: center;
+    
+}
+.middle{
+    height: 632px;
+    width: 100%;
+    background-color: black;
+}
+.middle h1{
+    color: white;
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 240px;
+}
+.middle em{
+    color:rgb(190, 49, 68);
+    font-size: 40px;
+}
+.mid{
+    text-align: center;
+}
+.mid h1{
+    color: black;
+}
