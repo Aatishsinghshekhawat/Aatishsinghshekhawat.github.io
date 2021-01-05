@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter the String</p>
+<input type="text" id="input">
+<button onclick="reverse()">Try it</button>
+
+<p id="answer"></p>
+
+<script>
+function reverse() {
+  var str = document.getElementById("input").value;
+  alert("your Entred String is "+str)
+  var res = str.split("");
+  var reverseArray = res.reverse();
+  var reverseString = reverseArray.join("")
+  document.getElementById("answer").innerHTML = reverseString;
+}
+</script>
+
+</body>
+</html>
