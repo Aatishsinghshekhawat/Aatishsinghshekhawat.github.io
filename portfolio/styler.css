@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(190, 49, 68);
+}
+.font {
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #fff;
+}
+nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: -580px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  font-family: "Roboto", sans-serif;
+}
+nav a:hover {
+  background-color: #000;
+  height: 65px;
+}
+.flex-nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  top: -39px;
+}
+.middle {
+  height: 700px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+.name {
+  font-size: 30px;
+  font-weight: 80px;
+  color: #fff;
+  position: absolute;
+  top: 325px;
+  left: 30%;
+}
+.student {
+  font-size: 28px;
+  font-weight: 10px;
+  color: rgb(128, 47, 59);
+  margin-left: 40%;
+  margin-top: -30px;
+  position: absolute;
+}
+.mid {
+  height: 550px;
+  width: 100%;
+  background-color: rgb(69, 86, 125);
+}
+.mid h1 {
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+}
+.gallary {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+.gallary img {
+  width: 380px;
+  height: 300px;
+}
+.box {
+  width: 380px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.boxheading {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -5px;
+}
+.boxheading a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.code {
+  color: #000000;
+  transition: color 0.5s ease-in-out;
+}
+
+.boxheading:hover .code {
+  color: orangered;
+}
+.last {
+  background-color: #24292e;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 380px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.boxheading {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -5px;
+}
+.boxheading a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.code {
+  color: #000000;
+  transition: color 0.5s ease-in-out;
+}
+
+.boxheading:hover .code {
+  color: orangered;
+}
+.last {
+  background-color: #24292e;
+  justify-content: center;
+  align-items: center;
+}
+.written {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  color: wheat;
+}
+.socialmedia {
+  display: flex;
+  color: #ffffff;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.github {
+  display: inline-block;
+}
+.github:hover {
+  padding-top: 40px;
+  transition: padding 1.5s ease-in-out;
+}
+.instagram {
+  display: inline-block;
+}
+.instagram:hover {
+  padding-top: 40px;
+  transition: padding 1.5s ease-in-out;
+}
+.socialmedia a {
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+  color: white;
+  text-decoration: none;
+  float: left;
+  display: block;
+}
+.line {
+  color: #be3144;
+}
+.lastsentence {
+  text-align: right;
+  font-size: 20px;
+  color: #d0d1d2;
+  padding-right: 630px;
+  align-items: center;
+}
+.tag {
+  text-align: center;
+  color: #d1d2d4;
+}
+@media (max-width: 700px) {
+  .name {
+    font-size: 28px;
+    margin-top: -115px;
+    margin-left: -15px;
+  }
+  .student {
+    font-size: 25px;
+    margin-top: -29px;
+    margin-left: 27px;
+  }
+  .gallary {
+    justify-content: center;
+    padding-left: 3%;
+  }
+  .text {
+    object-fit: cover;
+    margin-left: 0px;
+  }
+  .gallary img {
+    padding-left: 0px;
+    height: 220px;
+    width: 324px;
+  }
+  .mid {
+    height: 550px;
+  }
+  .flex-nav {
+    display: none;
+  }
+  .icons {
+    display: block;
+    height: 50px;
+  }
+  .lastsentence {
+    padding-right: 100px;
+  }
+  .boxheading {
+    width: 285px;
+  }
+}

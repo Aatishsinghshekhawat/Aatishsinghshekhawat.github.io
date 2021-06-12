@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covert Celsius to temperature</title>
+</head>
+<h2>Enter the celsius</h2>
+<p id="solution"></p>
+<input id="solution" />
+<button onclick="answer()">Click Me</button>
+<body>
+ <script>
+     function answer() {
+            
+           var cToFahr = ctofhar * 9 / 5 + 32;
+         var main = cToFahr + '\xB0C is ' + cToFahr + ' \xB0F.'; 
+         var ctofhar = document.getElementById("solution").innerHTML = cToFahr
+     }
+ </script>   
+</body>
+</html>
