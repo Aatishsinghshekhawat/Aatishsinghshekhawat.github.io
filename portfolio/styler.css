@@ -89,7 +89,8 @@ nav a:hover {
 .box {
   width: 380px;
   margin-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 3
+  ff0px;
 }
 .boxheading {
   background-color: #000000;
@@ -232,7 +233,7 @@ nav a:hover {
   .lastsentence {
     padding-right: 100px;
   }
-  .boxheading {
+  .boxheading {                                                                                         
     width: 285px;
   }
 }
